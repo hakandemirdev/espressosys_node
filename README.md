@@ -45,3 +45,6 @@ Kurulum tamamlandıktan sonra işlemler başarıyla gerçekleştiyse aşağıdak
 
 Son olarak ctrl+a+d  tuş kombinasyonu ile screen ekranından çıkıyoruz.
 
+Daha sonra kişisel bilgisayarımızdan windows komut satırını yönetici olarak çalıştıryoruz.
+
+![This is an image](https://i.imgur.com/a5nbpb2.png)
