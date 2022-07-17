@@ -22,7 +22,6 @@ curl https://www.espressosys.com/cape/docker-compose.yaml --output docker-compos
 Docker compose kurulumu yapıyoruz.
 ```
 apt install docker-compose
-docker-compose pull
 ```
 ```
 docker-compose pull
