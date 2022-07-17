@@ -48,3 +48,16 @@ Son olarak ctrl+a+d  tuş kombinasyonu ile screen ekranından çıkıyoruz.
 Daha sonra kişisel bilgisayarımızdan windows komut satırını yönetici olarak çalıştıryoruz.
 
 ![This is an image](https://i.imgur.com/a5nbpb2.png)
+
+Aşağıdaki komutta sunucuip yazan kısmı espresso node kurmuş olduğumuz sunucumuzun ip adresi ile değiştirip komut satırında çalıştırıyoruz.
+
+```
+netsh interface portproxy add v4tov4 listenaddress=127.0.0.1 listenport=80 connectaddress=sunucuip connectport=80
+```
+
+Aynı şekilde aşağıdaki komutta sunucuip yazan kısmı espresso node kurmuş olduğumuz sunucumuzun ip adresi ile değiştirip komut satırında çalıştırıyoruz.
+
+```
+netsh interface portproxy add v4tov4 listenaddress=127.0.0.1 listenport=60000 connectaddress=sunucuip connectport=60000
+```
+Artık CAPE cüzdan oluşturabiliriz. CAPE cüzdan oluşturmak için kişisel bilgisayarımızda bir tarayıcı açarak (örneğin chrome) adres satırına localhost yazıyor ve enter tuşuna basıyoruz.
