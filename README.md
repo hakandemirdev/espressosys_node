@@ -24,6 +24,10 @@ Docker compose kurulumu yapıyoruz.
 apt install docker-compose
 docker-compose pull
 ```
+```
+docker-compose pull
+```
+
 Screen kurulumu yapıyoruz.
 ```
 apt install screen
@@ -38,6 +42,7 @@ docker-compose up
 ```
 Kurulum tamamlandıktan sonra işlemler başarıyla gerçekleştiyse aşağıdaki gibi bir ekran çıktısı görmemiz gerekli.
 
+![This is an image](https://i.imgur.com/G40jlCs.png)
 
 Son olarak ctrl+a+d  tuş kombinasyonu ile screen ekranından çıkıyoruz.
 
