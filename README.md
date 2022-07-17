@@ -36,3 +36,8 @@ Son olarak docker compose 'u çalıştırıyoruz.
 ```
 docker-compose up
 ```
+Kurulum tamamlandıktan sonra işlemler başarıyla gerçekleştiyse aşağıdaki gibi bir ekran çıktısı görmemiz gerekli.
+
+
+Son olarak ctrl+a+d  tuş kombinasyonu ile screen ekranından çıkıyoruz.
+
